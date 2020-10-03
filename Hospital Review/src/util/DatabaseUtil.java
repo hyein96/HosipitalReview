@@ -11,7 +11,7 @@ public class DatabaseUtil {
 	//다른 라이브러리에서 함수 사용할 수 있도록 static 넣기
 	public static Connection getConnection() {
 		try {
-			//mysql에 접속하기 위한 명령어(DB이름:TUTORIAL)
+			//mysql에 접속하기 위한 명령어(DB이름:LectureEvluation)
 			//timezone에러 방지 위해 ?~ 코드작성
 			String dbURL = "jdbc:mysql://localhost:3306/LectureEvaluation?serverTimezone=UTC"; 
 			String dbID ="root";
